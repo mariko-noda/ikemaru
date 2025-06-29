@@ -13,9 +13,9 @@
 
 | 分野             | スキル内容                                                    
 |------------------|--------------------------------------------------------------
-| バックエンド開発 | Java / Spring Boot /                
-| フロントエンド   | HTML / CSS / 
-| CMS開発・構築    | WordPress
+| バックエンド開発 | Java / Spring Boot /　PHP              
+| フロントエンド   | HTML / CSS / JavaScript
+| CMS開発・構築    | WordPress　/ a-blog cms
 | 自動化・業務改善 | kintone
 | データベース     | MySQL / PostgreSQL                                     
 ---
