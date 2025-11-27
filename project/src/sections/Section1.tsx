@@ -1,6 +1,6 @@
 export default function Section1() {
   return (
-    <section className="w-full min-h-screen flex items-center justify-center bg-cover bg-center relative" style={{backgroundImage: 'url(/ヘッダー.png)'}}>
+    <section className="w-full min-h-screen flex items-center justify-center bg-cover bg-center relative" style={{backgroundImage: 'url(/ヘッダー3.png)'}}>
       <div className="absolute inset-0 bg-black bg-opacity-30"></div>
       <div className="relative z-10 text-center px-4">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">

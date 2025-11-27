@@ -1,33 +1,38 @@
 export default function Section3() {
   return (
-    <section className="w-full py-20 px-4 bg-gradient-to-b from-white to-blue-50">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
-          クチコミボックス®なら、3ステップで完了
-        </h2>
-        <p className="text-center text-gray-600 mb-16 text-lg">
-          シンプルだから、毎日続けられる
-        </p>
-
-        <div className="mb-12">
-          <img src="/セクション3.png" alt="3ステップ説明" className="w-full h-auto rounded-lg shadow-lg" />
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-          <div className="text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500 text-white rounded-full text-2xl font-bold mb-4">1</div>
-            <h3 className="text-xl font-bold text-gray-900 mb-2">クチコミを読み込む</h3>
-            <p className="text-gray-700">AIがGoogleマップから自動取得</p>
+    <section className="w-full py-24 px-4 bg-white">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="flex justify-center">
+            <img src="/セクション3.png" alt="3ステップ説明" className="w-full h-auto max-w-md rounded-lg shadow-lg" />
           </div>
-          <div className="text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-orange-500 text-white rounded-full text-2xl font-bold mb-4">2</div>
-            <h3 className="text-xl font-bold text-gray-900 mb-2">AIが返信文を生成</h3>
-            <p className="text-gray-700">理念を学習した"分身AI"が作成</p>
-          </div>
-          <div className="text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-pink-500 text-white rounded-full text-2xl font-bold mb-4">3</div>
-            <h3 className="text-xl font-bold text-gray-900 mb-2">確認して送信</h3>
-            <p className="text-gray-700">1分でチェック完了、そのまま投稿OK</p>
+          <div className="space-y-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+              クチコミボックス®なら、<br />3ステップで完了
+            </h2>
+            <div className="space-y-6">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-lg">1</div>
+                <div>
+                  <p className="font-bold text-gray-900">クチコミを読み込む</p>
+                  <p className="text-gray-600">AIがGoogleマップから自動取得</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold text-lg">2</div>
+                <div>
+                  <p className="font-bold text-gray-900">AIが返信文を生成</p>
+                  <p className="text-gray-600">理念を学習した分身AIが作成</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 bg-pink-500 text-white rounded-full flex items-center justify-center font-bold text-lg">3</div>
+                <div>
+                  <p className="font-bold text-gray-900">確認して送信</p>
+                  <p className="text-gray-600">1分でチェック完了、そのまま投稿OK</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
